@@ -1,0 +1,87 @@
+------------
+Test Case 1: (Input and Output of Polynomial terms)
+------------
+
+Enter the polynomial as pairs of degree and coefficients, ordered in decreasing value of degree:
+(3,2),(2,2),(1,5),(0,10)
+
+Following polynomial entered (Degree, Coefficient):
+(3, 2.000000)(2, 2.000000)(1, 5.000000)(0, 10.000000)
+
+
+------------
+Test Case 2: (Input and Output of Polynomial terms)
+------------
+
+Enter Dividend Polynomial :(3,2),(2,2),(1,5),(0,10)
+
+Enter Divisor Polynomial :(2,1),(1,6),(0,7)
+
+Quotient polynomial (Degree, Coefficient):
+(1, 2.000000)(0, -10.000000)
+Remainder polynomial (Degree, Coefficient):
+(1, 51.000000)(0, 80.000000)
+
+
+------------
+Test Case 3: (Continuous Polynomial Division)
+------------
+
+Enter Dividend Polynomial :(2,3)
+
+Enter Divisor Polynomial :(5,1)
+
+Quotient polynomial (Degree, Coefficient):
+
+Remainder polynomial (Degree, Coefficient):
+(2, 3.000000)
+
+ Press 'D' to divide more, or 'E' to Exit !!!D
+
+Enter Dividend Polynomial :(5,1)
+
+Enter Divisor Polynomial :(3,2)
+
+Quotient polynomial (Degree, Coefficient):
+(2, 0.500000)
+Remainder polynomial (Degree, Coefficient):
+(0, 0.000000)
+
+ Press 'D' to divide more, or 'E' to Exit !!!E
+
+
+------------
+Test Case 4: (Error Message on Invalid polynomial input format)
+------------
+
+Enter the polynomial as pairs of degree and coefficients, ordered in decreasing value of degree:
+(1,2),(5,6)
+
+Polynomial not in required format, please enter again!
+(1,0)
+
+Polynomial not in required format, please enter again!
+(0,1)
+
+Following polynomial entered (Degree, Coefficient):
+(0, 1.000000)
+
+
+------------
+Test Case 5: (Division by a constant)
+------------
+
+Following polynomial entered (Degree, Coefficient):
+(1, 1.000000)
+Enter Dividend Polynomial :(3,2)(1,7)(0,5)
+
+Enter Divisor Polynomial :(0,5)
+
+Quotient polynomial (Degree, Coefficient):
+(3, 0.400000)(1, 1.400000)(0, 1.000000)
+Remainder polynomial (Degree, Coefficient):
+(0, 0.000000)
+
+ Press 'D' to divide more, or 'E' to Exit !!!
+
+
